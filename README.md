@@ -12,7 +12,7 @@ Invoking the Deploy method assumes:
  3. The farm has 2 nodes, each pointing to one of the sites (Blue and Green)
  4. There is a rewrite rule to redirect requests to the farm when the port ({SERVER_PORT}) does not match $deploymentNodesPort
 
-#File Strcuture
+#File Structure
  - C:\PATH_TO_YOUR_CODE\$projectName        (This folder holds the files to be deployed)
  - C:\PATH_TO_YOUR_CODE\$projectName-Green  (Can be empty to start with - deployment files will be copied here when activating this node)
  - C:\PATH_TO_YOUR_CODE\$projectName-Blue   (Can be empty to start with - deployment files will be copied here when activating this node)
